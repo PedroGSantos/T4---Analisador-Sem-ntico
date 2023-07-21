@@ -56,7 +56,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                      <mainClass>compiladores.App</mainClass>
+                      <mainClass>compiladores.alguma.semantico.Principal</mainClass>
                     </manifest>
                 </archive>
                 <descriptorRefs>
