@@ -28,6 +28,16 @@ public interface AlgumaListener extends ParseTreeListener {
 	 */
 	void exitDeclaracoes(AlgumaParser.DeclaracoesContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link AlgumaParser#decl_local_global}.
+	 * @param ctx the parse tree
+	 */
+	void enterDecl_local_global(AlgumaParser.Decl_local_globalContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link AlgumaParser#decl_local_global}.
+	 * @param ctx the parse tree
+	 */
+	void exitDecl_local_global(AlgumaParser.Decl_local_globalContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link AlgumaParser#declaracao_local}.
 	 * @param ctx the parse tree
 	 */

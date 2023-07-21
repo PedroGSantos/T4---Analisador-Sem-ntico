@@ -23,6 +23,12 @@ public interface AlgumaVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitDeclaracoes(AlgumaParser.DeclaracoesContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link AlgumaParser#decl_local_global}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitDecl_local_global(AlgumaParser.Decl_local_globalContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link AlgumaParser#declaracao_local}.
 	 * @param ctx the parse tree
 	 * @return the visitor result

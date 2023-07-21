@@ -41,6 +41,18 @@ public class AlgumaBaseListener implements AlgumaListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterDecl_local_global(AlgumaParser.Decl_local_globalContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitDecl_local_global(AlgumaParser.Decl_local_globalContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterDeclaracao_local(AlgumaParser.Declaracao_localContext ctx) { }
 	/**
 	 * {@inheritDoc}

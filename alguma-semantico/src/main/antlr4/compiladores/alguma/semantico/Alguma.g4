@@ -74,6 +74,7 @@ ERRO: '~' | '$' | '}' | '|' | '!' | '@' ;
 
 programa: declaracoes 'algoritmo' corpo 'fim_algoritmo' EOF;
 declaracoes: (declaracao_local | declaracao_global)*;
+decl_local_global : declaracao_local | declaracao_global;
 declaracao_local: 'declare' variavel | 'constante' IDENT ':' tipo_basico '=' valor_constante | 'tipo' IDENT ':' tipo;
 variavel: identificador (',' identificador)* ':' tipo;
 identificador: IDENT ('.' IDENT)* dimensao;
