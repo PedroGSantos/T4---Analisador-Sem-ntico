@@ -16,12 +16,9 @@ Pedro Gonçalves dos Santos          794042
 
 É necessário compilar o projeto via Maven com:
 
-    mvn clean compile
-
-Em sequência, para empacotar o projeto:
-
+    mvn generate-sources
     mvn package
-    
+
 ## Rodar
 
 Para rodar para um par `entrada` e `saida` arbitrário, basta seguir o código abaixo e indicar caminho dos arquivos de entrada e saída

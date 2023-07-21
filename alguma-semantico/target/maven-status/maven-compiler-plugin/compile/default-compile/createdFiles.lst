@@ -1,6 +1,8 @@
 compiladores/alguma/semantico/AlgumaParser$Declaracao_globalContext.class
 compiladores/alguma/semantico/TabelaDeSimbolos$TipoAlguma.class
+compiladores/alguma/semantico/Principal.class
 compiladores/alguma/semantico/AlgumaParser$Op3Context.class
+compiladores/alguma/semantico/AlgumaSemantico.class
 compiladores/alguma/semantico/AlgumaParser$Op1Context.class
 compiladores/alguma/semantico/AlgumaParser$IdentificadorContext.class
 compiladores/alguma/semantico/AlgumaBaseVisitor.class
@@ -25,6 +27,7 @@ compiladores/alguma/semantico/AlgumaParser$TermoContext.class
 compiladores/alguma/semantico/AlgumaParser$CmdLeiaContext.class
 compiladores/alguma/semantico/AlgumaParser$CmdRetorneContext.class
 compiladores/alguma/semantico/AlgumaParser$Op_unarioContext.class
+compiladores/alguma/semantico/AlgumaSemanticoUtils.class
 compiladores/alguma/semantico/AlgumaParser$Declaracao_localContext.class
 compiladores/alguma/semantico/AlgumaParser$DimensaoContext.class
 compiladores/alguma/semantico/AlgumaParser$CmdEscrevaContext.class
@@ -32,6 +35,7 @@ compiladores/alguma/semantico/AlgumaParser$Op2Context.class
 compiladores/alguma/semantico/TabelaDeSimbolos$1.class
 compiladores/alguma/semantico/AlgumaParser$Termo_logicoContext.class
 compiladores/alguma/semantico/AlgumaParser$CorpoContext.class
+compiladores/alguma/semantico/AlgumaListener.class
 compiladores/alguma/semantico/AlgumaParser$Exp_aritmeticaContext.class
 compiladores/alguma/semantico/AlgumaLexer.class
 compiladores/alguma/semantico/AlgumaParser$Item_selecaoContext.class
@@ -46,6 +50,7 @@ compiladores/alguma/semantico/AlgumaParser$FatorContext.class
 compiladores/alguma/semantico/AlgumaVisitor.class
 compiladores/alguma/semantico/AlgumaParser.class
 compiladores/alguma/semantico/AlgumaParser$Valor_constanteContext.class
+compiladores/alguma/semantico/AlgumaBaseListener.class
 compiladores/alguma/semantico/AlgumaParser$CmdContext.class
 compiladores/alguma/semantico/AlgumaParser$VariavelContext.class
 compiladores/alguma/semantico/AlgumaParser$CmdSeContext.class
@@ -54,4 +59,5 @@ compiladores/alguma/semantico/AlgumaParser$Tipo_estendidoContext.class
 compiladores/alguma/semantico/AlgumaParser$Op_logico_1Context.class
 compiladores/alguma/semantico/AlgumaParser$Parcela_nao_unarioContext.class
 compiladores/alguma/semantico/AlgumaParser$Tipo_basicoContext.class
+compiladores/alguma/semantico/Escopos.class
 compiladores/alguma/semantico/AlgumaParser$Numero_intervaloContext.class
