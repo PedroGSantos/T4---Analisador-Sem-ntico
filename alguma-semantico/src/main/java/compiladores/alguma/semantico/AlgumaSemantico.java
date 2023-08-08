@@ -313,10 +313,7 @@ public class AlgumaSemantico extends AlgumaBaseVisitor<Void> {
                 adicionaErroSemantico(ctx.identificador().getStart(), "identificador " + ctx.identificador().getText() + " nao declarado");
             else {
                 TipoAlguma varTipo = verificarTipo(tabela, varNome);
-
-                // Caso o tipo seja inteiro ou real, é utilizada a função verificaCompatibilidade para verificar
-                // se o valor a ser trabalhado é real ou não (mais informações sobre a função podem ser encontradas
-                // no arquivo T4SemanticoUtils.java.
+                
                 if (varTipo == TipoAlguma.INTEIRO || varTipo == TipoAlguma.REAL) {
                     // Verifica se a variável atual é um ponteiro para apresentar uma mensagem personalizada
                     // para este caso.
