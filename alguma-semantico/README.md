@@ -4,7 +4,7 @@ Geovanne Mansano Fritch da Silva    791072
 
 Pedro Gonçalves dos Santos          794042
 
-# Analisador semântico (parte 1) para a Linguagem LA
+# Analisador semântico (parte 2) para a Linguagem LA
 
 ## Pré-requisitos
 
