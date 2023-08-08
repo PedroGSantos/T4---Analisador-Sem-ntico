@@ -1,4 +1,4 @@
-// Generated from /home/pedro/Documentos/compiladores/Trabalho3/T3/alguma-semantico/src/main/antlr4/compiladores/alguma/semantico/Alguma.g4 by ANTLR 4.9.2
+// Generated from /home/pedro/Documentos/compiladores/T4---Analisador-Sem-ntico/alguma-semantico/src/main/antlr4/compiladores/alguma/semantico/Alguma.g4 by ANTLR 4.9.2
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;

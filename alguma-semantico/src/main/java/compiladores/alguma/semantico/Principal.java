@@ -22,8 +22,6 @@ public class Principal {
                 AlgumaParser parser = new AlgumaParser(tokens);
                 ProgramaContext arvore = parser.programa();
                 AlgumaSemantico alguma = new AlgumaSemantico();
-                
-                // Inicia o Programa
                 alguma.visitPrograma(arvore);
                 
                 // Verifica se há erros, exibe todos os erros encontrados e encerra a operação do analisador.

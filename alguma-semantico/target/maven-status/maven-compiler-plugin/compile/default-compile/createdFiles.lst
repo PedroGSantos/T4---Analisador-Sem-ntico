@@ -51,6 +51,7 @@ compiladores/alguma/semantico/AlgumaParser$FatorContext.class
 compiladores/alguma/semantico/AlgumaVisitor.class
 compiladores/alguma/semantico/AlgumaParser.class
 compiladores/alguma/semantico/AlgumaParser$Valor_constanteContext.class
+compiladores/alguma/semantico/TabelaDeSimbolos$TipoEntrada.class
 compiladores/alguma/semantico/AlgumaBaseListener.class
 compiladores/alguma/semantico/AlgumaParser$VariavelContext.class
 compiladores/alguma/semantico/AlgumaParser$CmdContext.class

@@ -85,8 +85,8 @@ tipo_basico_ident: tipo_basico | IDENT;
 tipo_estendido: '^'? tipo_basico_ident;
 valor_constante: CADEIA | NUM_INT | NUM_REAL | 'verdadeiro' | 'falso';
 registro: 'registro' variavel* 'fim_registro';
-declaracao_global:
-    'procedimento' IDENT '(' parametros? ')' corpo 'fim_procedimento' | 'funcao' IDENT '(' parametros? ')' ':' tipo_estendido corpo 'fim_funcao';
+declaracao_global : 'procedimento' IDENT '(' (parametros)? ')' (declaracao_local)* (cmd)* 'fim_procedimento'
+                  | 'funcao' IDENT '(' (parametros)? ')' ':' tipo_estendido (declaracao_local)* (cmd)* 'fim_funcao';
 parametro: 'var'? identificador (',' identificador)* ':' tipo_estendido;
 parametros: parametro (',' parametro)*;
 corpo: declaracao_local* cmd*;
@@ -113,13 +113,13 @@ op1: '+' | '-';
 op2: '*' | '/';
 op3: '%';
 parcela: op_unario? parcela_unario | parcela_nao_unario;
-parcela_unario: '^'? identificador | IDENT '(' exp_aritmetica (',' exp_aritmetica )* ')' | NUM_INT | NUM_REAL | '(' exp_aritmetica ')';
+parcela_unario: '^'? identificador | IDENT '(' expressao (',' expressao)* ')' | NUM_INT | NUM_REAL | '(' expressao ')';
 parcela_nao_unario: '&' identificador | CADEIA;
 exp_relacional: exp_aritmetica (op_relacional exp_aritmetica)?;
 op_relacional: '=' | '<>' | '>=' | '<=' | '>' | '<';
 expressao: termo_logico (op_logico_1 termo_logico)*;
 termo_logico: fator_logico (op_logico_2 fator_logico)*;
 fator_logico: 'nao'? parcela_logica;
-parcela_logica: 'verdadeiro' | 'falso' | exp_relacional;
+parcela_logica: ('verdadeiro' | 'falso') | exp_relacional;
 op_logico_1: 'ou';
 op_logico_2: 'e';

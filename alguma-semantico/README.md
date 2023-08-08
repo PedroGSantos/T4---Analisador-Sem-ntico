@@ -23,4 +23,4 @@ Pedro Gonçalves dos Santos          794042
 
 Para rodar para um par `entrada` e `saida` arbitrário, basta seguir o código abaixo e indicar caminho dos arquivos de entrada e saída
 
-    java -jar target/la-sintatico-1.0-SNAPSHOT-jar-with-dependencies.jar path_entrada path_saida
+    java -jar target/alguma-semantico-1.0-SNAPSHOT-jar-with-dependencies.jar path_entrada path_saida
